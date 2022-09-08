@@ -4,5 +4,5 @@ def print_last_digit(number):
         modulo = number % 10
     else:
         modulo = -(number % -10)
-    print("{:d}".format(modulo))
+    print("{:d}".format(modulo), end='')
     return(modulo)
